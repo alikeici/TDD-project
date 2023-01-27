@@ -6,12 +6,12 @@ public class UserTest {
     @Test
     public void testGetUsername(){
         User user=new User("ammar","12345");
-        assertEquals("Ali", user.getUsername());
+        assertEquals("ammar", user.getUsername());
     }
 
     @Test
     public void testGetPassword(){
         User user=new User("ammar", "password");
-        assertEquals("123455", user.getPassword());
+        assertEquals("password", user.getPassword());
     }
 }
