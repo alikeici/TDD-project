@@ -24,4 +24,10 @@ public class LoginTest {
         assertEquals("READ", login.verifyTjanst(login.verify("anna", "losen"), "ACCOUNT"));
     }
 
+    @Test
+    void verifyLoginWrongToken() throws WrongLoginException {
+
+        assertEquals("does not exis", login.verifyTjanst("readd", "ACCOUNT"));
+    }
+
 }
