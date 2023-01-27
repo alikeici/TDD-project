@@ -34,8 +34,16 @@ public class LoginTest {
     void verifyLoginFalsePassword() {
 
         WrongLoginException wrongLoginException = assertThrows(WrongLoginException.class, () ->
-                login.verify("anna", "los"));
+                login.verify("anna", "losen"));
         assertEquals("Wrong password!", wrongLoginException.getMessage());
+    }
+
+    @Test
+    void verifyLoginFalseName() throws WrongLoginException {
+
+        WrongLoginException wrongLoginException = assertThrows(WrongLoginException.class, () ->
+                login.verify("annaa", "losen"));
+        assertEquals("Wrong name!", wrongLoginException.getMessage());
     }
 
 }
