@@ -30,4 +30,12 @@ public class LoginTest {
         assertEquals("does not exist", login.verifyTjanst("Read", "ACCOUNT"));
     }
 
+    @Test
+    void verifyLoginFalsePassword() throws WrongLoginException {
+
+        WrongLoginException wrongLoginException = assertThrows(WrongLoginException.class, () ->
+                login.verify("ann", "los"));
+        assertEquals("Wrong password!", wrongLoginException.getMessage());
+    }
+
 }
