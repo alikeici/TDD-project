@@ -31,10 +31,10 @@ public class LoginTest {
     }
 
     @Test
-    void verifyLoginFalsePassword() throws WrongLoginException {
+    void verifyLoginFalsePassword() {
 
         WrongLoginException wrongLoginException = assertThrows(WrongLoginException.class, () ->
-                login.verify("ann", "los"));
+                login.verify("anna", "los"));
         assertEquals("Wrong password!", wrongLoginException.getMessage());
     }
 
