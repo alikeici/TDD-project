@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732ba1f8-515f-4204-82a6-9c42fa19947a" name="Changes" comment="Red in test" />
+    <list default="true" id="732ba1f8-515f-4204-82a6-9c42fa19947a" name="Changes" comment="Red in ServiceTest">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WrongLoginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +25,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,10 +62,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserTest">
+  <component name="RunManager" selected="JUnit.LoginTest.verifyLoginCorrectToken">
+    <configuration name="LoginTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_driven_development" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyLoginCorrectToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_driven_development" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="verifyLoginCorrectToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_driven_development" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,8 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.LoginTest.verifyLoginCorrectToken" />
+        <item itemvalue="JUnit.LoginTest.testLogin" />
         <item itemvalue="JUnit.UserTest.testGetUsername" />
+        <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.UserTest.testGetPassword" />
       </list>
     </recent_temporary>
@@ -82,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674779386318</updated>
-      <workItem from="1674779388583" duration="4503000" />
+      <workItem from="1674779388583" duration="13227000" />
     </task>
     <task id="LOCAL−00001" summary="set up">
       <created>1674779983922</created>
@@ -114,7 +166,19 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1674783807293</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Example of getting red in UserTest">
+      <created>1674783925157</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1674783925157</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Green in UserTest">
+      <created>1674784177762</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1674784177762</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +198,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up" />
     <MESSAGE value="Red in test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red in test" />
+    <MESSAGE value="Example of getting red in UserTest" />
+    <MESSAGE value="Green in UserTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green in UserTest" />
   </component>
 </project>
