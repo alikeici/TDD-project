@@ -18,10 +18,10 @@ public class LoginTest {
         assertEquals("123Aba#", login.verify("anna", "losen"));
     }
 
-    @Test
+    @Test //expected=WrongLoginException.class
     void verifyLoginCorrectAuthorization() throws WrongLoginException {
 
-        assertEquals("READ", login.verifyTjanst(login.verify("anna", "los"), "ACCOUNT"));
+        assertEquals("READ", login.verifyTjanst(login.verify("anna", "losen"), "ACCOUNT"));
     }
 
 }
