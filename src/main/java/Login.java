@@ -1,5 +1,5 @@
 import java.util.HashMap;
-import java.util.UUID;
+
 
 public class Login {
 
@@ -33,16 +33,6 @@ public class Login {
     }
 
 
-    public String decryptPassword(String password) {
-        int key = 6;
-        String decryptedPassword = "";
-        char[] charPassword = password.toCharArray();
-        for (char c : charPassword) {
-            c -= key;
-            decryptedPassword += c;
-        }
-        return decryptedPassword;
-    }
 
 
     public String verify(String name, String password) throws WrongLoginException {

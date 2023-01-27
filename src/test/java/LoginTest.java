@@ -27,14 +27,14 @@ public class LoginTest {
     @Test
     void verifyLoginWrongToken()  {
 
-        assertEquals("does not exist", login.verifyTjanst("Read", "ACCOUNT"));
+        assertEquals("does not exist", login.verifyTjanst("ACCOUNT", "PROVISION_CALC"));
     }
 
     @Test
     void verifyLoginFalsePassword() {
 
         WrongLoginException wrongLoginException = assertThrows(WrongLoginException.class, () ->
-                login.verify("anna", "losen"));
+                login.verify("anna", "los"));
         assertEquals("Wrong password!", wrongLoginException.getMessage());
     }
 

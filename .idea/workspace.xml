@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732ba1f8-515f-4204-82a6-9c42fa19947a" name="Changes" comment="&#10;&#10;Green in LoginTest , verifyLoginFalsePassword">
+    <list default="true" id="732ba1f8-515f-4204-82a6-9c42fa19947a" name="Changes" comment="&#10;&#10;Green in LoginTest , verifyLoginFalseName">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LoginTest.verifyLoginFalseName">
+  <component name="RunManager" selected="JUnit.LoginTest.verifyLoginWrongToken">
     <configuration name="LoginTest.verifyLoginCorrectAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_driven_development" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,10 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.verifyLoginFalseName" />
-        <item itemvalue="JUnit.LoginTest.verifyLoginFalsePassword" />
-        <item itemvalue="JUnit.LoginTest.verifyLoginCorrectAuthorization" />
         <item itemvalue="JUnit.LoginTest.verifyLoginWrongToken" />
+        <item itemvalue="JUnit.LoginTest.verifyLoginFalsePassword" />
+        <item itemvalue="JUnit.LoginTest.verifyLoginFalseName" />
+        <item itemvalue="JUnit.LoginTest.verifyLoginCorrectAuthorization" />
         <item itemvalue="JUnit.LoginTest.verifyLoginCorrectToken" />
       </list>
     </recent_temporary>
@@ -125,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674779386318</updated>
-      <workItem from="1674779388583" duration="14950000" />
+      <workItem from="1674779388583" duration="16283000" />
     </task>
     <task id="LOCAL−00001" summary="set up">
       <created>1674779983922</created>
@@ -217,7 +218,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1674795753059</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="&#10;&#10;Green in LoginTest , verifyLoginFalseName">
+      <created>1674796091957</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1674796091957</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +253,7 @@
     <MESSAGE value="&#10;&#10;Green in LoginTest , verifyLoginWrongToken" />
     <MESSAGE value="&#10;&#10;Red in LoginTest , verifyLoginFalsePassword" />
     <MESSAGE value="&#10;&#10;Green in LoginTest , verifyLoginFalsePassword" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;Green in LoginTest , verifyLoginFalsePassword" />
+    <MESSAGE value="&#10;&#10;Green in LoginTest , verifyLoginFalseName" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;Green in LoginTest , verifyLoginFalseName" />
   </component>
 </project>
