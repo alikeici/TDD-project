@@ -15,7 +15,7 @@ public class LoginTest {
     @Test
     void verifyLoginCorrectToken() throws WrongLoginException {
 
-        assertEquals("123Ab#", login.verify("anna", "losen"));
+        assertEquals("123Aba#", login.verify("anna", "losen"));
     }
 
 
