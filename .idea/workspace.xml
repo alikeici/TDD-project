@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732ba1f8-515f-4204-82a6-9c42fa19947a" name="Changes" comment="set up">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="732ba1f8-515f-4204-82a6-9c42fa19947a" name="Changes" comment="Red in test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674779386318</updated>
-      <workItem from="1674779388583" duration="4188000" />
+      <workItem from="1674779388583" duration="4503000" />
     </task>
     <task id="LOCAL−00001" summary="set up">
       <created>1674779983922</created>
@@ -114,7 +108,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1674781206335</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Red in test">
+      <created>1674783807293</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1674783807293</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up" />
+    <MESSAGE value="Red in test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Red in test" />
   </component>
 </project>
